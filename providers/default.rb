@@ -104,7 +104,7 @@ def config_hash
   @new_resource.conf['port'] = @new_resource.port
 
   # Connect to IRC for peer discovery
-  @new_resource.conf['irc'] = 1
+#   @new_resource.conf['irc'] = 1
   # Set rpc user is "{coin}_user"
   @new_resource.conf['rpcuser'] = "#{@new_resource.name}_user"
   return @new_resource.conf
